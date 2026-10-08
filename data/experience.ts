@@ -1,0 +1,96 @@
+export const experience = [
+  {
+    id: "experience",
+    company: "D&D Motor Systems, Inc.",
+    role: "Software Engineer Intern",
+    location: "Syracuse, NY",
+    dates: "Sep 2026 — Present",
+    title: "Modernizing a system that never stops.",
+    summary:
+      "Working inside a legacy PHP/MySQL production platform, understanding its dependencies and supporting a phased path toward modernization.",
+    metrics: [
+      ["14K+", "monthly users"],
+      ["$130K+", "approx. monthly ecommerce revenue"],
+      ["100+", "legacy files"],
+    ],
+    points: [
+      "Introducing Git-based version control and organizing an interconnected legacy codebase.",
+      "Using LLM-assisted analysis to understand dependencies and support phased modernization.",
+      "Identified four authentication and security weaknesses; internal details remain confidential.",
+    ],
+    tech: ["PHP", "MySQL", "Git", "LLM-assisted analysis"],
+    pipeline: [
+      "Production platform",
+      "Dependency mapping",
+      "Version control",
+      "Phased modernization",
+    ],
+  },
+  {
+    id: "accenture",
+    company: "Accenture",
+    role: "Software Engineer",
+    location: "Mumbai, India",
+    dates: "Sep 2023 — Jul 2024",
+    title: "Strong foundations. Faster systems.",
+    summary:
+      "Layered Java and Spring Boot backend engineering, with careful attention to query performance, integration behavior, and test coverage.",
+    metrics: [
+      ["650 → 250ms", "API response time"],
+      ["35+", "JUnit / Mockito tests"],
+      ["~75%", "code coverage"],
+    ],
+    points: [
+      "Built REST APIs with Spring MVC and JPA/Hibernate using controller, service, and repository layers.",
+      "Used PostgreSQL EXPLAIN ANALYZE and targeted indexes across four slow queries.",
+      "Integrated third-party REST APIs and handled multiple error scenarios.",
+    ],
+    tech: [
+      "Java",
+      "Spring Boot",
+      "Spring MVC",
+      "JPA / Hibernate",
+      "PostgreSQL",
+      "JUnit",
+      "Mockito",
+    ],
+    pipeline: [
+      "Client",
+      "REST API",
+      "Controller",
+      "Service",
+      "Repository",
+      "PostgreSQL",
+    ],
+  },
+  {
+    id: "iconsult",
+    company: "Syracuse University",
+    team: "iConsult Collaborative",
+    role: "Software Engineer",
+    location: "Syracuse, NY",
+    dates: "May 2025 — Mar 2026",
+    title: "Turning information into intelligence.",
+    summary:
+      "Research-oriented engineering across NLP, embeddings, semantic retrieval, and validated LLM workflows.",
+    metrics: [
+      ["~30%", "less manual review"],
+      ["1,500+", "indexed document chunks"],
+      ["~35%", "faster lookup"],
+    ],
+    points: [
+      "Built NLP classification and structured extraction with Python, LangChain, and LLM APIs.",
+      "Indexed embeddings in ChromaDB to support semantic information retrieval.",
+      "Used LangGraph validation and conditional routing to automate three recurring tasks.",
+    ],
+    tech: ["Python", "LangChain", "LangGraph", "LLM APIs", "NLP", "ChromaDB"],
+    pipeline: [
+      "Documents",
+      "NLP / LLM",
+      "Embeddings",
+      "ChromaDB",
+      "Semantic retrieval",
+      "Structured output",
+    ],
+  },
+] as const;

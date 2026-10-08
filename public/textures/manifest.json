@@ -1,0 +1,62 @@
+[
+  {
+    "file": "public/textures/earth-day.webp",
+    "source": "https://www.solarsystemscope.com/textures/download/2k_earth_daymap.jpg",
+    "mirror": "https://github.com/elymas/solar-simulator/blob/HEAD/public/textures/2k_earth_daymap.jpg",
+    "sourceGitBlobSha": "6cdcffea631a25e344e4ed68f3028fef1e554870",
+    "creator": "Solar System Scope / INOVE",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 2048,
+    "height": 1024,
+    "bytes": 148312,
+    "modifications": "Resized where needed and re-encoded to WebP; Moon mirror was already downsampled to 1K."
+  },
+  {
+    "file": "public/textures/earth-clouds.webp",
+    "source": "https://www.solarsystemscope.com/textures/download/2k_earth_clouds.jpg",
+    "mirror": "https://github.com/elymas/solar-simulator/blob/HEAD/public/textures/2k_earth_clouds.jpg",
+    "sourceGitBlobSha": "504aaa7750ec341922d8a28b03f42b8d4efa1549",
+    "creator": "Solar System Scope / INOVE",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 1024,
+    "height": 512,
+    "bytes": 114714,
+    "modifications": "Resized where needed and re-encoded to WebP; Moon mirror was already downsampled to 1K."
+  },
+  {
+    "file": "public/textures/mars.webp",
+    "source": "https://www.solarsystemscope.com/textures/download/2k_mars.jpg",
+    "mirror": "https://github.com/pjcigan/skyplothelper/blob/HEAD/examples/data/planet_maps/2k_mars.jpg",
+    "sourceGitBlobSha": "b3654a9b2d21c2910c38a0287423862650d54e1f",
+    "creator": "Solar System Scope / INOVE",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 2048,
+    "height": 1024,
+    "bytes": 204912,
+    "modifications": "Resized where needed and re-encoded to WebP; Moon mirror was already downsampled to 1K."
+  },
+  {
+    "file": "public/textures/jupiter.webp",
+    "source": "https://www.solarsystemscope.com/textures/download/2k_jupiter.jpg",
+    "mirror": "https://github.com/pjcigan/skyplothelper/blob/HEAD/examples/data/planet_maps/2k_jupiter.jpg",
+    "sourceGitBlobSha": "21f1951026dc8e539f751ef55b559fa683869c63",
+    "creator": "Solar System Scope / INOVE",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 2048,
+    "height": 1024,
+    "bytes": 126450,
+    "modifications": "Resized where needed and re-encoded to WebP; Moon mirror was already downsampled to 1K."
+  },
+  {
+    "file": "public/textures/moon.webp",
+    "source": "https://www.solarsystemscope.com/textures/download/2k_moon.jpg",
+    "mirror": "https://github.com/homer-jay/solar-system-textures/blob/HEAD/moon.jpg",
+    "sourceGitBlobSha": "c161160f059a38a402a45bfb9e34a6bd72a16dd6",
+    "creator": "Solar System Scope / INOVE",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "width": 1024,
+    "height": 512,
+    "bytes": 137582,
+    "modifications": "Resized where needed and re-encoded to WebP; Moon mirror was already downsampled to 1K."
+  }
+]
