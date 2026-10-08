@@ -137,11 +137,11 @@ main[data-scene-enhanced="true"] .map-jupiter{display:none;}
 
 /* A full viewing window and actual perspective depth replace the prior flat skill arrangement. */
 .belt-flight{height:1100svh;}
-.belt-cockpit .asteroid-stage{width:100vw;height:calc(100svh - 190px);min-height:360px;margin-left:-8vw;overflow:hidden;}
+.belt-cockpit .asteroid-stage{width:calc(100% + 16vw);height:calc(100svh - 190px);min-height:360px;margin-left:-8vw;overflow:hidden;}
 .flight-skill-label{position:absolute;left:0;top:0;z-index:2;width:max-content;max-width:170px;visibility:hidden;color:#fff1dc;font-size:12px;line-height:1.35;text-align:center;text-shadow:0 2px 4px #000,0 1px 1px #000;pointer-events:none;}
 .flight-skill-label::before{content:"";display:block;width:1px;height:8px;background:#d5c7ad66;margin:0 auto 3px;}
 .flight-fallback-rock{position:absolute;left:0;top:0;visibility:hidden;background:linear-gradient(145deg,#fff3,#000b),url('/textures/moon.webp') center/cover;clip-path:polygon(12% 15%,46% 0,86% 19%,100% 56%,70% 96%,21% 87%,0 50%);}
-@media(max-width:767px){.belt-cockpit .asteroid-stage{margin-left:-24px;height:calc(100svh - 205px);}.flight-skill-label{max-width:135px;font-size:11px;}.belt-flight{height:1300svh;}}
+@media(max-width:767px){.belt-cockpit .asteroid-stage{width:calc(100% + 48px);margin-left:-24px;height:calc(100svh - 205px);}.flight-skill-label{max-width:135px;font-size:11px;}.belt-flight{height:1300svh;}}
 @media(prefers-reduced-motion:reduce){.belt-flight{scroll-behavior:auto;}}
 
 .scene-annotations .spatial-label .lunar-label-stem{display:block!important;position:absolute;left:50%;top:0;height:1px;margin:0;background:#9db2c8;transform-origin:0 0;opacity:0;pointer-events:none;}

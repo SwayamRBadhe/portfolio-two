@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import {Component,useCallback,useEffect,useRef,useState,type ReactNode} from "react";
 import dynamic from "next/dynamic";
 import {useReducedMotion,useMotionValue} from "framer-motion";
@@ -35,7 +35,6 @@ export default function SkillsSystem({webglAvailable}:{webglAvailable:boolean}){
    if(progress===lastProgress&&!needsMeasure)return;
    lastProgress=progress;
    if(needsMeasure){
-    viewport.style.width=document.documentElement.clientWidth+"px";
     width=viewport.offsetWidth;height=viewport.offsetHeight;
     metrics=Array.from(labels??[],label=>({half:Math.max(45,label.offsetWidth/2),height:label.offsetHeight}));
     needsMeasure=false;

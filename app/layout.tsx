@@ -7,7 +7,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl ?? "http://localhost:3000"),
   alternates: siteUrl ? { canonical: siteUrl } : undefined,
-  title: "Swayam Badhe — Software Engineer",
+  title: "Swayam Badhe",
   description:
     "Swayam Rohidas Badhe: production software engineering, backend systems, full-stack development, and applied AI. Explore a cinematic space journey through his work.",
   openGraph: {

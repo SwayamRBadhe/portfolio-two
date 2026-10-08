@@ -24,7 +24,7 @@ export async function generateMetadata({
           ).toString(),
         }
       : undefined,
-    title: p ? p.name + " — Swayam Badhe" : "Project",
+    title: "Swayam Badhe",
     description: p?.summary,
   };
 }
